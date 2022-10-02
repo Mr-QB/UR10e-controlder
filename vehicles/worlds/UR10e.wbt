@@ -8,13 +8,19 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/project
 WorldInfo {
 }
 Viewpoint {
+<<<<<<< HEAD
   orientation 0.143597686890755 -0.9698735431210964 -0.1967867238239293 4.993122039574043
   position -0.18903538010449994 -0.5454975421140664 5.910313652115183
+=======
+  orientation 0.10175062238344668 0.9246143496400284 -0.3670628219860039 0.5825244010791896
+  position -3.4741343514129466 1.6522070205149986 2.82628758701346
+>>>>>>> main
 }
 TexturedBackground {
 }
 TexturedBackgroundLight {
 }
+<<<<<<< HEAD
 Solid {
   translation 0.49 -0.75 0
   children [
@@ -27,6 +33,8 @@ Solid {
     }
   ]
 }
+=======
+>>>>>>> main
 RectangleArena {
   floorSize 10 10
 }
@@ -161,7 +169,10 @@ Robot {
     }
     HingeJoint {
       jointParameters HingeJointParameters {
+<<<<<<< HEAD
         position 2.6100224983415705
+=======
+>>>>>>> main
         axis 0 0 1
         anchor 0 0 0.181
       }
@@ -179,7 +190,10 @@ Robot {
       ]
       endPoint Solid {
         translation 0 0 0.181
+<<<<<<< HEAD
         rotation 0 0 1 5.751607805521158
+=======
+>>>>>>> main
         children [
           Shape {
             appearance DEF SCREW_APPEARANCE PBRAppearance {
@@ -230,7 +244,10 @@ Robot {
           }
           HingeJoint {
             jointParameters HingeJointParameters {
+<<<<<<< HEAD
               position -2.3704850799296615
+=======
+>>>>>>> main
               axis 0 1 0
               anchor 0 0.176 0
             }
@@ -248,7 +265,11 @@ Robot {
             ]
             endPoint Solid {
               translation 0 0.176 0
+<<<<<<< HEAD
               rotation 0 -1 0 0.7996890799296618
+=======
+              rotation 0 1 0 1.570796
+>>>>>>> main
               children [
                 Shape {
                   appearance USE SCREW_APPEARANCE
@@ -362,7 +383,10 @@ Robot {
                 }
                 HingeJoint {
                   jointParameters HingeJointParameters {
+<<<<<<< HEAD
                     position -1.2603145782296838
+=======
+>>>>>>> main
                     axis 0 1 0
                     anchor 0 -0.137 0.613
                   }
@@ -380,7 +404,11 @@ Robot {
                   ]
                   endPoint Solid {
                     translation 0 -0.137 0.613
+<<<<<<< HEAD
                     rotation 0 -1 0 1.260314578229684
+=======
+                    rotation 0 1 0 0
+>>>>>>> main
                     children [
                       Shape {
                         appearance USE SCREW_APPEARANCE
@@ -462,7 +490,10 @@ Robot {
                       }
                       HingeJoint {
                         jointParameters HingeJointParameters {
+<<<<<<< HEAD
                           position 2.0598765577566134
+=======
+>>>>>>> main
                           axis 0 1 0
                           anchor 0 0 0.571
                         }
@@ -480,7 +511,11 @@ Robot {
                         ]
                         endPoint Solid {
                           translation 0 0 0.571
+<<<<<<< HEAD
                           rotation 0 1 0 3.6306725577566135
+=======
+                          rotation 0 1 0 1.570796
+>>>>>>> main
                           children [
                             Shape {
                               appearance USE SCREW_APPEARANCE
@@ -530,7 +565,10 @@ Robot {
                             }
                             HingeJoint {
                               jointParameters HingeJointParameters {
+<<<<<<< HEAD
                                 position 1.5707964706050768
+=======
+>>>>>>> main
                                 axis 0 0 1
                                 anchor 0 0.135 0
                               }
@@ -548,7 +586,10 @@ Robot {
                               ]
                               endPoint Solid {
                                 translation 0 0.135 0
+<<<<<<< HEAD
                                 rotation 0 0 1 1.5707964706050768
+=======
+>>>>>>> main
                                 children [
                                   Shape {
                                     appearance USE SCREW_APPEARANCE
@@ -598,7 +639,10 @@ Robot {
                                   }
                                   HingeJoint {
                                     jointParameters HingeJointParameters {
+<<<<<<< HEAD
                                       position -1.0392261175669315
+=======
+>>>>>>> main
                                       axis 0 1 0
                                       anchor 0 0 0.12
                                     }
@@ -616,7 +660,11 @@ Robot {
                                     ]
                                     endPoint Solid {
                                       translation 0 0 0.12
+<<<<<<< HEAD
                                       rotation 0 -1 0 1.0392261175669315
+=======
+                                      rotation 0 1 0 0
+>>>>>>> main
                                       children [
                                         Shape {
                                           appearance USE METAL_APPEARANCE
@@ -630,6 +678,7 @@ Robot {
                                           translation 0 0.12 0
                                           children [
                                             Robotiq3fGripper {
+<<<<<<< HEAD
                                               hidden position_0_0 -1.0947148749794626e-05
                                               hidden position_0_1 -1.0946384360034478e-05
                                               hidden position_0_2 0.04949993559723066
@@ -671,6 +720,8 @@ Robot {
                                               hidden angularVelocity_10 -5.985750797661144e-05 -7.339729525562936e-05 5.39684788938281e-06
                                               hidden linearVelocity_11 -0.02623448476972586 0.02430429672642817 0.00017651676861636613
                                               hidden angularVelocity_11 -5.985750748441741e-05 -7.339729476313898e-05 5.3968478631978045e-06
+=======
+>>>>>>> main
                                             }
                                           ]
                                         }
@@ -707,8 +758,11 @@ Robot {
                                           0 0 0
                                         ]
                                       }
+<<<<<<< HEAD
                                       linearVelocity -0.02621810235104538 0.024291173948789963 0.00018342055421384192
                                       angularVelocity -5.9802028731175636e-05 -7.332524029329509e-05 5.4281538269252945e-06
+=======
+>>>>>>> main
                                     }
                                   }
                                 ]
@@ -744,8 +798,11 @@ Robot {
                                     0 0.007 0.119
                                   ]
                                 }
+<<<<<<< HEAD
                                 linearVelocity -0.026194092227696256 0.02428208573827912 0.0001839363213234487
                                 angularVelocity -5.6100742942895784e-05 -7.333619186523297e-05 0.009187919850678208
+=======
+>>>>>>> main
                               }
                             }
                           ]
@@ -781,8 +838,11 @@ Robot {
                               0 0.118 0.007
                             ]
                           }
+<<<<<<< HEAD
                           linearVelocity -0.02578488511252346 0.025228105828927996 0.00019477396313835724
                           angularVelocity -5.4154556336480624e-05 -7.132046536244514e-05 0.00918852421201447
+=======
+>>>>>>> main
                         }
                       }
                     ]
@@ -839,8 +899,11 @@ Robot {
                         0 0 0
                       ]
                     }
+<<<<<<< HEAD
                     linearVelocity -0.01798384050548589 0.015327219998827035 0.024240996602543627
                     angularVelocity 0.024172229083587522 0.04111573937237056 0.009197524780886446
+=======
+>>>>>>> main
                   }
                 }
               ]
@@ -895,8 +958,11 @@ Robot {
                   0 0 0.3065
                 ]
               }
+<<<<<<< HEAD
               linearVelocity -0.007790824999079713 0.006968818960865102 0.012158055797757025
               angularVelocity -0.027821572085871722 -0.04727607576656841 0.009193144516476211
+=======
+>>>>>>> main
             }
           }
         ]
@@ -931,8 +997,11 @@ Robot {
             0 0 0
           ]
         }
+<<<<<<< HEAD
         linearVelocity -5.987104038792118e-05 5.363950027811079e-05 4.3811982806087345e-05
         angularVelocity -3.225993600568895e-05 -3.503131171655591e-05 0.00918216028969671
+=======
+>>>>>>> main
       }
     }
   ]
