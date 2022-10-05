@@ -1,5 +1,5 @@
 ## UR10e controlder: 
-simulation and calculation kinematic for UR10e use Webots
+simulation and calculation kinematic for UR10e use Webots and Matlab
 ## Install 
 * Download : ```git clone 
 https://github.com/Mr-QB/UR10e-controlder.git```
